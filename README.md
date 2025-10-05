@@ -1,31 +1,34 @@
-# WarGame-OverWire
+# ⚡ WarGame — OverTheWire
 
-Este repositório documenta minha jornada na resolução dos desafios de Capture The Flag (CTF) Natas e Bandit, oferecidos pela OverTheWire. Embora tenha recebido alguma ajuda, o foco principal foi o desenvolvimento das minhas próprias habilidades e a compreensão profunda dos desafios apresentados.
+> Registro tático das minhas resoluções nos CTFs **Bandit** e **Natas** (OverTheWire).  
+> Foco: técnica, histórico e comandos reproduzíveis — sem enrolação.
 
-## Desafios Resolvidos
+---
 
-- **Bandit**: Série de desafios que visam introduzir conceitos básicos de segurança e hacking ético. Cada nível requer a descoberta de uma "bandeira" (flag) para avançar.
-- **Natas**: Focado em técnicas de exploração web, este conjunto de desafios aprimora habilidades relacionadas à segurança em aplicações web.
+[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
+[![Stack](https://img.shields.io/badge/stack-Bash%20%7C%20Curl%20%7C%20Netcat-blue)]()
 
-## Estrutura do Repositório
+## 🧭 Índice
+- [Visão Rápida](#-visão-rápida)  
+- [Desafios](#-desafios)  
+- [Estrutura do repositório](#-estrutura-do-repositório)  
+- [Como reproduzir (rápido)](#-como-reproduzir-rápido)  
+- [Skills desenvolvidas](#-skills-desenvolvidas)  
+- [Notas táticas & dicas de prova](#-notas-táticas--dicas-de-prova)  
+- [Contribuições](#-contribuições)  
+- [Licença](#-licença)
 
-O repositório está organizado da seguinte forma:
+---
 
-- **Bandit/**: Contém subdiretórios para cada nível do Bandit, cada um com notas e soluções específicas.
-- **Natas/**: Estrutura semelhante, dedicada aos níveis do Natas.
+## ⚡ Visão Rápida
+Repositório com soluções, comandos e raciocínios aplicados nos níveis dos CTFs **Bandit** (Unix/CLI) e **Natas** (Web). Uso como portfólio técnico e diário de aprendizado — cada pasta contém notes, scripts e evidências.
 
-## Aprendizados e Reflexões
+---
 
-Durante a resolução desses desafios, adquiri conhecimentos em áreas como:
+## 🎯 Desafios
+- **Bandit** — fundamentos de segurança em Linux: permissão, pipes, criptografia simples e manipulação de arquivos.  
+- **Natas** — exploração web: LFI, XSS, auth bypass, headers e lógica de aplicação.
 
-- **Navegação e manipulação de sistemas Unix/Linux**: Aprimoramento das habilidades de linha de comando e gerenciamento de arquivos.
-- **Exploits básicos e técnicas de hacking ético**: Compreensão de vulnerabilidades comuns e métodos de exploração.
-- **Segurança em aplicações web**: Insights sobre como aplicações web podem ser vulneráveis e como mitigá-las.
+---
 
-## Contribuições
-
-Este repositório serve como um reflexo do meu progresso pessoal e aprendizado.
-
-## Licença
-
-Este projeto é pessoal e não possui uma licença específica. O conteúdo aqui presente é para fins educacionais e de autoaperfeiçoamento.
+## 🗂 Estrutura do repositório
