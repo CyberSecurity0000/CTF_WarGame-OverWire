@@ -5,30 +5,24 @@
 
 ---
 
-[![Status](https://img.shields.io/badge/status-active-brightgreen)]()
-[![Stack](https://img.shields.io/badge/stack-Bash%20%7C%20Curl%20%7C%20Netcat-blue)]()
+## Desafios
 
-## 🧭 Índice
-- [Visão Rápida](#-visão-rápida)  
-- [Desafios](#-desafios)  
-- [Estrutura do repositório](#-estrutura-do-repositório)  
-- [Como reproduzir (rápido)](#-como-reproduzir-rápido)  
-- [Skills desenvolvidas](#-skills-desenvolvidas)  
-- [Notas táticas & dicas de prova](#-notas-táticas--dicas-de-prova)  
-- [Contribuições](#-contribuições)  
-- [Licença](#-licença)
+- **Bandit**: Introdução ao hacking em sistemas Unix/Linux — permissões, pipes, criptografia e manipulação de arquivos.
+- **Natas**: Exploração de vulnerabilidades em aplicações web — LFI, auth-bypass, injeções e headers.
 
 ---
 
-## ⚡ Visão Rápida
-Repositório com soluções, comandos e raciocínios aplicados nos níveis dos CTFs **Bandit** (Unix/CLI) e **Natas** (Web). Uso como portfólio técnico e diário de aprendizado — cada pasta contém notes, scripts e evidências.
+## Estrutura do Repositório
+
+- `Bandit/`: Soluções e notas de cada nível.
+- `Natas/`: Soluções e notas de cada nível.
+- `README.md`: Raciocínio e comandos para cada desafio.
 
 ---
 
-## 🎯 Desafios
-- **Bandit** — fundamentos de segurança em Linux: permissão, pipes, criptografia simples e manipulação de arquivos.  
-- **Natas** — exploração web: LFI, XSS, auth bypass, headers e lógica de aplicação.
+## Como Reproduzir
 
----
-
-## 🗂 Estrutura do repositório
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/CyberSecurity0000/WarGame-OverWire.git
+   cd WarGame-OverWire
