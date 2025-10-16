@@ -1,6 +1,6 @@
 # ⚡ WarGame — OverTheWire
 
-🚨 **AVISO EDUCACIONAL:** Este write‑up documenta a resolução dos CTFs **Natas** e **Bandit**, realizados em ambientes controlados (plataformas de treino). Algumas etapas tiveram auxílio; o foco principal foi **aprendizado e desenvolvimento de habilidades técnicas**. **Não reproduza** estes procedimentos em sistemas de terceiros ou redes reais — isso é ilegal e antiético. Provas do ambiente (URL da sala, timestamps, screenshots e gravações brutas) estão arquivadas e disponíveis para verificação.
+🚨 **AVISO EDUCACIONAL:** Este write‑up documenta a resolução dos CTFs **Natas** e **Bandit**, realizados em ambientes controlados (plataformas de treino). Algumas etapas tiveram auxílio; o foco principal foi **aprendizado e desenvolvimento de habilidades técnicas**. **Não reproduza** estes procedimentos em sistemas de terceiros ou redes reais — isso é ilegal e antiético.
 
 > **Registro tático** das minhas resoluções nos CTFs **Bandit** e **Natas** (OverTheWire).  
 > Foco: técnica, histórico e comandos reproduzíveis — sem enrolação.
