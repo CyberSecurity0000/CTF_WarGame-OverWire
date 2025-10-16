@@ -19,7 +19,6 @@
 - `Bandit/` — soluções e notas por nível (outputs, comandos, screenshots).  
 - `Natas/` — soluções e notas por nível (requests, payloads, screenshots).  
 - `README.md` — visão geral e instruções rápidas.  
-- `evidence/` — provas arquivadas: screenshots, gravações brutas e `room_links.txt` (não publique arquivos binários/exploit).
 
 ---
 
